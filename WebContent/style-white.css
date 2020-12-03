@@ -1,0 +1,21 @@
+@import "style-base.css";
+
+:root {
+    --default-text-color : black;
+    --default-background-color : white;
+    --nav-menu-aside-background : rgb(255, 254, 197);
+    --nav-menu-font-color : rgb(204, 98, 38);
+    --nav-menu-font-color2 : rgb(255, 165, 113);
+    --aside-menu-button-bg : rgb(255, 253, 112);
+    --dropDownMenu-hover : rgb(255, 187, 0);
+    --dropDownMenu-hover2 : rgb(255, 237, 71);
+    --dropDownMenu-acrive : rgb(255, 245, 154);
+    --product-table-header : skyblue;
+    --product-table--odd : rgb(255, 246, 166);
+    --product-table--even : rgb(255, 223, 137);
+    --button-color : red;
+    --button-bg-color : white;
+    --table-border-color :rgb(127, 127, 127);
+
+    --file-url : url("baner.png")
+}

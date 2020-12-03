@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="KremowkaLab5:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33c5cb87-b08d-4e77-b85b-18b1a1af608a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kremowkadb@userver.home" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1drpBP3QkfMFuSyc2zafe0PBpZD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="TomEE Server.TomEE 9.0.35">
+    <configuration name="Test" type="TomeeConfiguration" factoryName="Remote" APPLICATION_SERVER_NAME="TomEE 9.0.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/KremowkaLab5_war/" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="KremowkaLab5:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/KremowkaLab5_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="446cb2d6-43ba-4559-91ee-63e08b46bdb9" />
+                    <id>446cb2d6-43ba-4559-91ee-63e08b46bdb9</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="446cb2d6-43ba-4559-91ee-63e08b46bdb9" />
+                    <id>446cb2d6-43ba-4559-91ee-63e08b46bdb9</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="2142a230-63c4-46bc-891f-77b1e9c411f0" />
+                    <id>2142a230-63c4-46bc-891f-77b1e9c411f0</id>
+                  </TransportTarget>
+                </option>
+                <staging-path />
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="2142a230-63c4-46bc-891f-77b1e9c411f0" />
+                    <id>2142a230-63c4-46bc-891f-77b1e9c411f0</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54673" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="KremowkaLab5:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="TomEE 9.0.35" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 9.0.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="KremowkaLab5:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/KremowkaLab5_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_KremowkaLab5_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54677" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="KremowkaLab5:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TomEE Server.TomEE 9.0.35" />
+      <item itemvalue="TomEE Server.Test" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="TomEE Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="TomEE Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33c5cb87-b08d-4e77-b85b-18b1a1af608a" name="Default Changelist" comment="" />
+      <created>1593192929681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593192929681</updated>
+      <workItem from="1593192934022" duration="7354000" />
+      <workItem from="1593200778706" duration="1093000" />
+      <workItem from="1593201989356" duration="1663000" />
+      <workItem from="1593347908502" duration="251000" />
+      <workItem from="1593373797006" duration="1796000" />
+      <workItem from="1593413246329" duration="3354000" />
+      <workItem from="1593496516955" duration="8841000" />
+      <workItem from="1593609808301" duration="622000" />
+      <workItem from="1593623985337" duration="1048000" />
+      <workItem from="1593720626202" duration="12000" />
+      <workItem from="1593726186813" duration="1060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Assign_Data_Sources" timestamp="1593195339664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1593195339664" />
+    <state x="465" y="17" key="#TomEE_9.0.35" timestamp="1593204111697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="17" key="#TomEE_9.0.35/0.0.1536.824@0.0.1536.824" timestamp="1593204111697" />
+    <state x="360" y="70" key="#TomEE_Server" timestamp="1593200892361">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="70" key="#TomEE_Server/0.0.1536.824@0.0.1536.824" timestamp="1593200892361" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593505769472">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593505769472" />
+    <state x="407" y="99" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1593194778037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="99" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593194778037" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1593374776357">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593374776357" />
+    <state x="360" y="70" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1593204256070">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="70" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1593204256070" />
+    <state x="485" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593501968034">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1593501968034" />
+    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1593200816894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593200816894" />
+    <state width="1024" height="291" key="GridCell.Tab.0.bottom" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="291" key="GridCell.Tab.0.center" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="291" key="GridCell.Tab.0.left" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="291" key="GridCell.Tab.0.right" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="291" key="GridCell.Tab.1.bottom" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="291" key="GridCell.Tab.1.center" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="291" key="GridCell.Tab.1.left" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="291" key="GridCell.Tab.1.right" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="291" key="GridCell.Tab.2.bottom" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="291" key="GridCell.Tab.2.center" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="291" key="GridCell.Tab.2.left" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="291" key="GridCell.Tab.2.right" timestamp="1593727416342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="291" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593727416342" />
+    <state width="1024" height="349" key="GridCell.Tab.3.bottom" timestamp="1593201460269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="349" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593201460269" />
+    <state width="1024" height="349" key="GridCell.Tab.3.center" timestamp="1593201460269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="349" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1593201460269" />
+    <state width="1024" height="349" key="GridCell.Tab.3.left" timestamp="1593201460268">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="349" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1593201460268" />
+    <state width="1024" height="349" key="GridCell.Tab.3.right" timestamp="1593201460269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="349" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1593201460269" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1593500070760">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593500070760" />
+    <state x="566" y="237" width="403" height="346" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1593199300649">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="237" width="403" height="346" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.824@0.0.1536.824" timestamp="1593199300649" />
+    <state x="910" y="107" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1593498019036">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="910" y="107" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1593498019036" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593720627703">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593720627703" />
+    <state x="499" y="167" key="extract.method.dialog" timestamp="1593197835019">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1593197835019" />
+    <state x="463" y="144" width="611" height="536" key="find.popup" timestamp="1593414896000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593414896000" />
+    <state x="209" y="0" key="new project wizard" timestamp="1593625180029">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593625180029" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/cukiernia/kremowka/service/OpinionService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/cukiernia/kremowka/service/OpinionService.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

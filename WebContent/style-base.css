@@ -1,0 +1,242 @@
+body {
+    color: var(--default-text-color);
+    background-color: var(--default-background-color);
+}
+
+p {
+    text-indent: 5%;
+    text-align: justify;
+}
+
+
+header {
+    height: 30vh;
+    background-image: var(--file-url);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+div.mainContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: auto;
+}
+
+div.contentOnRight {
+    display: inline-flexbox;
+    flex: 80%
+}
+
+aside {
+    flex: auto;
+    background-color: var(--nav-menu-aside-background);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--nav-menu-aside-background);
+    padding: 1em;
+}
+
+section {
+    padding: 0 3%;
+    text-overflow: clip; 
+}
+
+section article {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    background-color: var(--nav-menu-aside-background);
+    padding: 1em;
+}
+
+div.topMenuElement {
+    margin-right: 3em;
+}
+
+div.topMenuElement a{
+    text-decoration: none;
+    color: var(--nav-menu-font-color);
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+div.topMenuElement a:hover {
+    color: var(--nav-menu-font-color2);
+    transition: all 0.8s;
+}
+
+div.dropDownMenu {
+    color: var(--nav-menu-font-color);
+    text-transform: uppercase;
+    font-family: fantasy; 
+    cursor: pointer;
+    text-align: center;
+    background-color: var(--aside-menu-button-bg);
+    margin-bottom: 10px;
+    padding: 1em 0;
+    background-position: center;
+    transition: 0.8s;
+}
+
+div.dropDownMenu:hover {
+    background: var(--dropDownMenu-hover) radial-gradient(circle, transparent 1%, var(--dropDownMenu-hover2) 1%) center/15000%;
+}
+div.dropDownMenu:active {
+    background-color: var(--dropDownMenu-acrive);
+    background-size: 100%;
+    transition: 0s;
+}
+
+table.productTable {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    border-collapse: collapse;
+    line-height: 2em;
+}
+
+table.productTable tbody tr {
+    border-top: 1px solid var(--table-border-color);
+}
+
+table.productTable tbody tr:nth-child(odd){
+    background: var(--product-table--odd);
+       
+}
+table.productTable tbody tr:nth-of-type(even){
+    background: var(--product-table--even);
+       
+}
+
+table.productTable tbody tr:hover {
+    opacity: 0.7;
+	box-shadow: 0 5px 5px;
+}
+
+table.productTable thead {
+    background: var(--product-table-header);
+    font-weight: bold;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+}
+
+form.opinion {
+    margin: 0 20% 0;
+}
+
+
+input[type=button], input[type=submit], input[type=reset], button {
+    background-color: var(--button-color);
+    border: 2px solid var(--button-color);
+    color: var(--button-bg-color);
+    border-radius: 2px;
+    font-size: 18px;
+    text-align: center;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button:hover {
+    background-color: var(--button-bg-color);
+    color: var(--button-color);
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+fieldset.form {
+    display: flex;
+    padding: 0 5% 0;
+}
+
+div.radioOption {
+    display: block;
+    margin: 5px auto 5px
+}
+fieldset.form input[type="email"], fieldset.form input[type="number"], fieldset.form textarea{
+    width: 100%;
+}
+div.formButtons {
+    margin-top: 10px;
+    display: inline-flex;
+    width: 100%;
+}
+
+div.formButtons > div.submit {
+    width: 50%;
+    display:flex;
+    justify-content: flex-start;
+}
+
+div.formButtons > div.reset {
+    width: 50%;
+    display:flex;
+    justify-content: flex-end;
+}
+
+ul.linkList {
+    list-style-type: none;
+}
+
+a.linkPosition {
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: var(--default-text-color);
+}
+
+li.linkPosition {
+    margin-bottom: 1em;
+}
+
+div#yourOpinion, div#theRest, div#info {
+    max-height: 0;
+	overflow: hidden;
+}
+
+div.formResult {
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+}
+
+footer {
+    margin-top: 1em;
+    text-align: center;
+
+    /*position: fixed;
+    bottom: 0;
+    padding-top: 1em;
+    background-color: var(--nav-menu-aside-background);
+    width: 100%;
+    border-top-color: var(--default-text-color);
+    border-top-style: solid;*/
+}
+
+@media (max-width:700px) {
+    nav {
+        display: block;
+        padding: 0.5em 0.5em 0;
+        margin-top: 2px;
+    }
+    div.topMenuElement {
+        margin: 0;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    table.productTable {
+        width: 100%;
+    }
+
+    form.opinion {
+        margin: 0;
+    }
+}
